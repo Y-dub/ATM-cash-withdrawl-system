@@ -1,0 +1,11 @@
+button {
+    display: block;
+    margin: 0 0 10px;
+}
+
+$new-element: "div.show-result";
+
+
+@if & == var(new-element) {
+        border-style: dotted;
+    }
